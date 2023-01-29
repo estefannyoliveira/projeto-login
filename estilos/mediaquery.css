@@ -11,6 +11,7 @@
     }
 
     section#login > div#imagem{
+        display: block;
         float: left;
         width: 40%;
         height: 100%;
@@ -19,13 +20,16 @@
         
     }
     section#Login > div#formulario{
+        display: block;
         float: right;
+
     }
 
     div#formulario > p{
         display: flex;
      
     }
+ 
 }
 
 @media screen and (min-width: 992px) {
