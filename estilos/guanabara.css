@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+:root{
+    --cor1: rgb(9, 186, 180);
+    --cor2: #3ACBC6;
+    --cor3: #6adfdb; 
+    --cor4: #b3fbfa;
+    --cordest:#0594ad;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    background-color: var(--cor4);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--cor2);
+    width: 100px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#imagem{
+    background-color: var(--cor1);
+    height: 200px;
+} 
+
+IMG{
+    width: 100%;
+  
+}

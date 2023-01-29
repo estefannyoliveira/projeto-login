@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*Typical device Breakpoints*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body,html{
+        background: linear-gradient(to top, rgb(12, 170, 162), #84dedd);
+    }
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-size: 150%;
+        background-position: 68%;
+        
+    }
+    section#Login > div#formulario{
+        float: right;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body,html{
+        background: linear-gradient(to top, rgb(12, 170, 162), #84dedd);
+    }
+    section#login{
+        width: 950px;
+    }
+    
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: 50%;
+
+    }
+
+    section#formulario{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
