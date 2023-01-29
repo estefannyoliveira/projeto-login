@@ -21,8 +21,8 @@
 body,html{
     font-family: 'Roboto', sans-serif;
     background-color: var(--cor4);
+    height: 100vh;
     width: 100vw;
-    width: 100vh;
 }
 
 main{
@@ -57,7 +57,7 @@ section#login > div#imagem{
     background-color: var(--cor1);
     background-size: cover;
     background-position: center center;
-    height: 220px;
+    height: 200px;
     background-size: cover;
 
 }
@@ -65,7 +65,7 @@ section#login > div#imagem{
 
 section#login > div#formulario{
     display: block;
-    padding: 10px;
+ 
  
 }
 
@@ -78,34 +78,4 @@ section#login > div#formulario{
 main p{
     padding: 0px 15px;
   
-}
-
-#info{
-    text-align: center;
-    padding: 10px;
-}
-
-#email{
-    padding: 10px;
-    background-color: var(--cor1);
-    margin-bottom: 5px;
-    border-radius: 10px;
-}
-#senha{
-    padding: 10px;
-    background-color:var(--cor1);
-    border-radius: 10px;
-}
-
-input{
-    display: inline-block;
-    background-color: var(--cordest);
-    border: none;
-    border-radius: 10px;
-}
-
-#envio{
-    
-    text-align: center;
-
 }
