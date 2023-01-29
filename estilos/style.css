@@ -65,17 +65,14 @@ section#login > div#imagem{
 
 section#login > div#formulario{
     display: block;
- 
- 
 }
 
- h1{
+div#formulario > h1{
     font-weight: 900;
     text-align: center;
-    padding: 10px;
-   
+    margin: 10px 0px;
 }
-main p{
+div#formulario > p{
     padding: 0px 15px;
-  
+    font-size: 1em;
 }
